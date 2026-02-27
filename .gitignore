@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and outputs
+datasets/
+outputs/
+logs/
+*.txt
+!requirements.txt
+*.csv
+reward_png/
+local.txt
+reward_log.txt
+
+# Models
+*.pt
+*.pth
+*.bin
+grpo_finetuned_model/
+
+# Wandb
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
